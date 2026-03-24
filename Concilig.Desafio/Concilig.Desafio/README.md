@@ -19,7 +19,7 @@ para o dominio. FEITO!
 Update-Database. FEITO!
 
 8. Criar a pasta Services e implementar o ImportacaoService com a logica de leitura do arquivo
-CSV separado por ponto e virgula.
+CSV separado por ponto e virgula. FEITO!
 
 9. Registrar o ImportacaoService no Program.cs utilizando AddScoped.
 
