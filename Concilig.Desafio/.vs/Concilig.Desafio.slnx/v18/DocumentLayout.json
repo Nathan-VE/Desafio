@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|c:\\users\\ktn\\documents\\github\\desafio\\concilig.desafio\\concilig.desafio\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|solutionrelative:concilig.desafio\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|c:\\users\\ktn\\documents\\github\\desafio\\concilig.desafio\\concilig.desafio\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|solutionrelative:concilig.desafio\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|c:\\users\\ktn\\documents\\github\\desafio\\concilig.desafio\\concilig.desafio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|solutionrelative:concilig.desafio\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|c:\\users\\ktn\\documents\\github\\desafio\\concilig.desafio\\concilig.desafio\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|solutionrelative:concilig.desafio\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +30,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\appsettings.json",
+              "RelativeDocumentMoniker": "Concilig.Desafio\\appsettings.json",
+              "ToolTip": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\appsettings.json",
+              "RelativeToolTip": "Concilig.Desafio\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T13:54:14.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\.gitignore",
               "RelativeDocumentMoniker": "Concilig.Desafio\\.gitignore",
@@ -39,15 +56,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\README.md",
               "RelativeDocumentMoniker": "Concilig.Desafio\\README.md",
               "ToolTip": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\README.md",
               "RelativeToolTip": "Concilig.Desafio\\README.md",
-              "ViewState": "AgIAABcAAAAAAAAAAAAiwCgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-03-24T13:25:13.061Z"
+              "WhenOpened": "2026-03-24T13:25:13.061Z",
+              "EditorCaption": ""
             }
           ]
         }

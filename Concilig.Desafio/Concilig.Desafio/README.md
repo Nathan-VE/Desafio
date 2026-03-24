@@ -1,11 +1,11 @@
 Projeto Concilig 
 
 
-1. Criar o projeto no Visual Studio utilizando ASP.NET Core Web App (Razor Pages).
+1. Criar o projeto no Visual Studio utilizando ASP.NET Core Web App (Razor Pages). FEITO!
 
-2. Executar o projeto e validar se as telas de login e cadastro estao funcionando corretament.
+2. Executar o projeto e validar se as telas de login e cadastro estao funcionando corretament. FEITO!
 
-3. Configurar a string de conexao do servidor SQL Server correto.
+3. Configurar a string de conexao do servidor SQL Server correto. FEITO!
 
 4. Executar os comandos Add-Migration InitialCreate e Update-Database para criar o banco de
 dados e as tabelas do Identity.
