@@ -8,15 +8,15 @@ Projeto Concilig
 3. Configurar a string de conexao do servidor SQL Server correto. FEITO!
 
 4. Executar os comandos Add-Migration InitialCreate e Update-Database para criar o banco de
-dados e as tabelas do Identity.
+dados e as tabelas do Identity. FEITO!
 
 5. Criar as entidades Contrato e Importacao dentro da pasta Models com os campos necessarios
-para o dominio.
+para o dominio. FEITO!
 
-6. Atualizar o DbContext adicionando DbSet para Contratos e Importacoes.
+6. Atualizar o DbContext adicionando DbSet para Contratos e Importacoes. FEITO!
 
 7. Criar nova migration com Add-Migration CriacaoEntidades e atualizar o banco com
-Update-Database.
+Update-Database. FEITO!
 
 8. Criar a pasta Services e implementar o ImportacaoService com a logica de leitura do arquivo
 CSV separado por ponto e virgula.
