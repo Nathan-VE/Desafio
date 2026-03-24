@@ -1,4 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Concilig.Desafio.Models;
+
+namespace Concilig.Desafio.Models;
 
 // Modelo de Importacao
 public class Importacao

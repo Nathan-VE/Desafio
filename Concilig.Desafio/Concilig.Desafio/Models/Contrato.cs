@@ -1,6 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
+namespace Concilig.Desafio.Models;
+
 // Modelo do Contrato
 public class Contrato
 {
