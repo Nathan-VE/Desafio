@@ -1,6 +1,7 @@
 ﻿using Concilig.Desafio.Data;
 using Concilig.Desafio.Models;
 using Microsoft.AspNetCore.Http;
+using System.Globalization;
 
 namespace Concilig.Desafio.Services;
 
@@ -32,7 +33,11 @@ public class ImportacaoService
             QuantidadeRegistros = 0
         };
 
-        // Realiza a leitura d arquivo (linha por linha)
+        // Salva a importação primeiro para obter o Id gerado pelo banco
+        _context.Importacoes.Add(importacao);
+        await _context.SaveChangesAsync();
+
+        // Realiza a leitura do arquivo (linha por linha)
         using (var reader = new StreamReader(arquivo.OpenReadStream()))
         {
             // Percorre o arquivo
@@ -40,17 +45,20 @@ public class ImportacaoService
             {
                 var linha = await reader.ReadLineAsync();
 
+                // Ignora linhas vazias
+                if (string.IsNullOrWhiteSpace(linha))
+                    continue;
+
                 // Separando as informações por ";"
                 var dados = linha.Split(';');
 
                 // Contruindo o obj (transformando text em data)
                 var contrato = new Contrato
                 {
-                    Id = 1,
                     NumeroContrato = dados[0],
                     Cliente = dados[1],
-                    Valor = decimal.Parse(dados[2]),
-                    DataVencimento = DateTime.Parse(dados[3]),
+                    Valor = decimal.Parse(dados[2], CultureInfo.InvariantCulture),
+                    DataVencimento = DateTime.Parse(dados[3], CultureInfo.InvariantCulture),
                     ImportacaoId = importacao.Id
                 };
 
@@ -59,8 +67,7 @@ public class ImportacaoService
                 importacao.QuantidadeRegistros++;
             }
         }
-        // Salva a importação
-        _context.Importacoes.Add(importacao);
+        // Salva os contratos e atualiza a quantidade de registros
         await _context.SaveChangesAsync();
     }
 }
