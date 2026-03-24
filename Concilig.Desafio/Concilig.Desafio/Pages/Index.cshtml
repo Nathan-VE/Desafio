@@ -1,10 +1,26 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="text-center py-5">
+    <h1 class="display-5 fw-bold mb-3">Sistema de Importação de Contratos</h1>
+    <p class="lead text-muted mb-4">
+        Importe arquivos CSV de contratos, visualize o histórico e filtre por cliente ou data de vencimento.
+    </p>
+
+    @if (User.Identity?.IsAuthenticated == true)
+    {
+        <div class="d-flex justify-content-center gap-3">
+            <a asp-page="/Importacoes/Upload" class="btn btn-primary btn-lg">Importar CSV</a>
+            <a asp-page="/Importacoes/Index" class="btn btn-outline-secondary btn-lg">Ver Importações</a>
+        </div>
+    }
+    else
+    {
+        <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-primary btn-lg">
+            Entrar para começar
+        </a>
+    }
 </div>
