@@ -7,6 +7,22 @@
       "RelativeMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|solutionrelative:concilig.desafio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|c:\\users\\ktn\\documents\\github\\desafio\\concilig.desafio\\concilig.desafio\\services\\importacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|solutionrelative:concilig.desafio\\services\\importacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|c:\\users\\ktn\\documents\\github\\desafio\\concilig.desafio\\concilig.desafio\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|solutionrelative:concilig.desafio\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|c:\\users\\ktn\\documents\\github\\desafio\\concilig.desafio\\concilig.desafio\\services\\importacaoresultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|solutionrelative:concilig.desafio\\services\\importacaoresultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|c:\\users\\ktn\\documents\\github\\desafio\\concilig.desafio\\concilig.desafio\\services\\iimportacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|solutionrelative:concilig.desafio\\services\\iimportacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|c:\\users\\ktn\\documents\\github\\desafio\\concilig.desafio\\concilig.desafio\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|solutionrelative:concilig.desafio\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -35,16 +51,8 @@
       "RelativeMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|solutionrelative:concilig.desafio\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|c:\\users\\ktn\\documents\\github\\desafio\\concilig.desafio\\concilig.desafio\\services\\importacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|solutionrelative:concilig.desafio\\services\\importacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|c:\\users\\ktn\\documents\\github\\desafio\\concilig.desafio\\concilig.desafio\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|solutionrelative:concilig.desafio\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|c:\\users\\ktn\\documents\\github\\desafio\\concilig.desafio\\concilig.desafio\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|solutionrelative:concilig.desafio\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{557FE759-60DB-8742-6768-F6A5984E6908}|Concilig.Desafio\\Concilig.Desafio.csproj|c:\\users\\ktn\\documents\\github\\desafio\\concilig.desafio\\concilig.desafio\\models\\contrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,8 +78,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImportacaoResultado.cs",
+              "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Services\\ImportacaoResultado.cs",
+              "RelativeDocumentMoniker": "Concilig.Desafio\\Services\\ImportacaoResultado.cs",
+              "ToolTip": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Services\\ImportacaoResultado.cs",
+              "RelativeToolTip": "Concilig.Desafio\\Services\\ImportacaoResultado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:42:07.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IImportacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Services\\IImportacaoService.cs",
+              "RelativeDocumentMoniker": "Concilig.Desafio\\Services\\IImportacaoService.cs",
+              "ToolTip": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Services\\IImportacaoService.cs",
+              "RelativeToolTip": "Concilig.Desafio\\Services\\IImportacaoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:41:52.713Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -80,57 +118,14 @@
               "RelativeDocumentMoniker": "Concilig.Desafio\\Program.cs",
               "ToolTip": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Program.cs",
               "RelativeToolTip": "Concilig.Desafio\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-24T23:37:57.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Concilig.Desafio\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Concilig.Desafio\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T23:36:53.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Concilig.Desafio\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "Concilig.Desafio\\Pages\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T23:36:28.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Concilig.Desafio\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Concilig.Desafio\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-24T23:35:38.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "GlobalExceptionMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Middleware\\GlobalExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "Concilig.Desafio\\Middleware\\GlobalExceptionMiddleware.cs",
@@ -138,12 +133,11 @@
               "RelativeToolTip": "Concilig.Desafio\\Middleware\\GlobalExceptionMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T23:33:29.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T23:33:29.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Concilig.Desafio.csproj",
               "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Concilig.Desafio.csproj",
               "RelativeDocumentMoniker": "Concilig.Desafio\\Concilig.Desafio.csproj",
@@ -155,7 +149,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "ImportacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Services\\ImportacaoService.cs",
+              "RelativeDocumentMoniker": "Concilig.Desafio\\Services\\ImportacaoService.cs",
+              "ToolTip": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Services\\ImportacaoService.cs",
+              "RelativeToolTip": "Concilig.Desafio\\Services\\ImportacaoService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T14:18:20.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\.gitignore",
+              "RelativeDocumentMoniker": "Concilig.Desafio\\.gitignore",
+              "ToolTip": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\.gitignore",
+              "RelativeToolTip": "Concilig.Desafio\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-24T13:46:26.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Concilig.Desafio\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Concilig.Desafio\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T23:35:38.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Concilig.Desafio\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Concilig.Desafio\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T23:36:28.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ContratoImportadoDto.cs",
               "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\DTOs\\ContratoImportadoDto.cs",
               "RelativeDocumentMoniker": "Concilig.Desafio\\DTOs\\ContratoImportadoDto.cs",
@@ -167,19 +211,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ImportacaoService.cs",
-              "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Services\\ImportacaoService.cs",
-              "RelativeDocumentMoniker": "Concilig.Desafio\\Services\\ImportacaoService.cs",
-              "ToolTip": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Services\\ImportacaoService.cs",
-              "RelativeToolTip": "Concilig.Desafio\\Services\\ImportacaoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T14:18:20.932Z"
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Concilig.Desafio\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Concilig.Desafio\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T23:36:53.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Concilig.Desafio\\Data\\ApplicationDbContext.cs",
@@ -191,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Importacao.cs",
               "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Models\\Importacao.cs",
               "RelativeDocumentMoniker": "Concilig.Desafio\\Models\\Importacao.cs",
@@ -203,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\appsettings.json",
               "RelativeDocumentMoniker": "Concilig.Desafio\\appsettings.json",
@@ -215,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Contrato.cs",
               "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Models\\Contrato.cs",
               "RelativeDocumentMoniker": "Concilig.Desafio\\Models\\Contrato.cs",
@@ -227,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "20260324141344_CriacaoEntidades.cs",
               "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\Data\\Migrations\\20260324141344_CriacaoEntidades.cs",
               "RelativeDocumentMoniker": "Concilig.Desafio\\Data\\Migrations\\20260324141344_CriacaoEntidades.cs",
@@ -239,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\README.md",
               "RelativeDocumentMoniker": "Concilig.Desafio\\README.md",
@@ -248,18 +292,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2026-03-24T13:25:13.061Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\.gitignore",
-              "RelativeDocumentMoniker": "Concilig.Desafio\\.gitignore",
-              "ToolTip": "C:\\Users\\ktn\\Documents\\GitHub\\Desafio\\Concilig.Desafio\\Concilig.Desafio\\.gitignore",
-              "RelativeToolTip": "Concilig.Desafio\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-24T13:46:26.296Z"
             }
           ]
         }
