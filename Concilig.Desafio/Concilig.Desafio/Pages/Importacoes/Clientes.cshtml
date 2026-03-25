@@ -1,0 +1,71 @@
+﻿@page "{id:int}"
+@model Concilig.Desafio.Pages.Importacoes.ClientesModel
+@using System.Globalization
+@{
+    ViewData["Title"] = "Resumo por Cliente";
+    var ptBR = new CultureInfo("pt-BR");
+}
+
+<div class="d-flex justify-content-between align-items-start mb-4">
+    <div>
+        <h2 class="mb-1">Resumo por Cliente</h2>
+        <p class="text-muted mb-0">
+            @Model.Importacao!.NomeArquivo
+            &mdash;
+            Importado em @Model.Importacao.DataImportacao.ToString("dd/MM/yyyy HH:mm")
+        </p>
+    </div>
+    <a asp-page="/Importacoes/Detalhes" asp-route-id="@Model.Importacao.Id"
+       class="btn btn-outline-secondary">← Voltar</a>
+</div>
+
+@if (!Model.Resumo.Any())
+{
+    <div class="alert alert-info">Nenhum contrato encontrado nesta importação.</div>
+}
+else
+{
+    <div class="card shadow-sm">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <span class="fw-semibold">Clientes</span>
+            <span class="text-muted small">@Model.Resumo.Count cliente(s)</span>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>Cliente</th>
+                        <th>CPF</th>
+                        <th class="text-end">Valor Total</th>
+                        <th class="text-center">Maior Atraso</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Resumo)
+                    {
+                        var atrasoClass = item.MaiorAtrasoEmDias > 0 ? "text-danger fw-semibold" : "text-success";
+                        var atrasoTexto = item.MaiorAtrasoEmDias > 0
+                        ? $"{item.MaiorAtrasoEmDias} dia(s)"
+                        : "Em dia";
+
+                        <tr>
+                            <td>@item.Cliente</td>
+                            <td class="text-muted">@item.CPF</td>
+                            <td class="text-end">@item.ValorTotal.ToString("C", ptBR)</td>
+                            <td class="text-center">
+                                <span class="@atrasoClass">@atrasoTexto</span>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot class="table-light fw-semibold">
+                    <tr>
+                        <td colspan="2">Total geral</td>
+                        <td class="text-end">@Model.Resumo.Sum(r => r.ValorTotal).ToString("C", ptBR)</td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+}

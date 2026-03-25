@@ -15,7 +15,11 @@
             <span class="badge bg-secondary">@Model.Importacao.QuantidadeRegistros registro(s)</span>
         </p>
     </div>
-    <a asp-page="/Importacoes/Index" class="btn btn-outline-secondary">← Voltar</a>
+    <div class="d-flex gap-2">
+        <a asp-page="/Importacoes/Clientes" asp-route-id="@Model.Importacao.Id"
+           class="btn btn-outline-primary">Resumo por Cliente</a>
+        <a asp-page="/Importacoes/Index" class="btn btn-outline-secondary">← Voltar</a>
+    </div>
 </div>
 
 @* Painel de filtros *@
