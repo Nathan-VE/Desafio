@@ -1,0 +1,54 @@
+﻿@page
+@model Concilig.Desafio.Pages.Importacoes.ConsultaModel
+@{
+    ViewData["Title"] = "Consulta de Importações";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="mb-0">Consulta de Importações</h2>
+    <span class="text-muted small">Todos os arquivos importados no sistema</span>
+</div>
+
+@if (!Model.Importacoes.Any())
+{
+    <div class="alert alert-info">Nenhuma importação registrada no sistema.</div>
+}
+else
+{
+    <div class="card shadow-sm">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <span class="fw-semibold">Arquivos Importados</span>
+            <span class="text-muted small">@Model.Importacoes.Count importação(ões)</span>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>Arquivo</th>
+                        <th>Usuário</th>
+                        <th>Data de Importação</th>
+                        <th class="text-center">Registros</th>
+                        <th class="text-center">Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var imp in Model.Importacoes)
+                    {
+                        <tr>
+                            <td>@imp.NomeArquivo</td>
+                            <td class="text-muted">@imp.UsuarioEmail</td>
+                            <td>@imp.DataImportacao.ToString("dd/MM/yyyy HH:mm")</td>
+                            <td class="text-center">
+                                <span class="badge bg-secondary">@imp.QuantidadeRegistros</span>
+                            </td>
+                            <td class="text-center">
+                                <a asp-page="/Importacoes/Detalhes" asp-route-id="@imp.Id"
+                                   class="btn btn-sm btn-outline-primary">Ver detalhes</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}
