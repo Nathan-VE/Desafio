@@ -103,31 +103,36 @@ public class ImportacaoService : IImportacaoService
     }
 
     // Retorna o DTO preenchido OU uma mensagem de erro — nunca lança exceção
+    // Formato esperado: Nome;CPF;Contrato;Produto;Vencimento;Valor
     private static (ContratoImportadoDto? Dto, string? Erro) TentarParsearLinha(string linha, int numeroLinha)
     {
         var colunas = linha.Split(';');
 
-        if (colunas.Length < 4)
-            return (null, $"Linha {numeroLinha}: esperadas 4 colunas, encontradas {colunas.Length}.");
+        if (colunas.Length < 6)
+            return (null, $"Linha {numeroLinha}: esperadas 6 colunas, encontradas {colunas.Length}.");
 
         if (string.IsNullOrWhiteSpace(colunas[0]))
-            return (null, $"Linha {numeroLinha}: número do contrato é obrigatório.");
-
-        if (string.IsNullOrWhiteSpace(colunas[1]))
             return (null, $"Linha {numeroLinha}: nome do cliente é obrigatório.");
 
-        if (!decimal.TryParse(colunas[2].Trim(), NumberStyles.Any, CultureInfo.InvariantCulture, out var valor))
-            return (null, $"Linha {numeroLinha}: valor inválido '{colunas[2].Trim()}'.");
+        if (string.IsNullOrWhiteSpace(colunas[2]))
+            return (null, $"Linha {numeroLinha}: número do contrato é obrigatório.");
 
-        if (!DateTime.TryParse(colunas[3].Trim(), CultureInfo.InvariantCulture, DateTimeStyles.None, out var dataVencimento))
-            return (null, $"Linha {numeroLinha}: data de vencimento inválida '{colunas[3].Trim()}'.");
+        var ptBR = new CultureInfo("pt-BR");
+
+        if (!decimal.TryParse(colunas[5].Trim(), NumberStyles.Any, ptBR, out var valor))
+            return (null, $"Linha {numeroLinha}: valor inválido '{colunas[5].Trim()}'.");
+
+        if (!DateTime.TryParseExact(colunas[4].Trim(), "dd/MM/yyyy", ptBR, DateTimeStyles.None, out var dataVencimento))
+            return (null, $"Linha {numeroLinha}: data de vencimento inválida '{colunas[4].Trim()}'.");
 
         return (new ContratoImportadoDto
         {
-            NumeroContrato = colunas[0].Trim(),
-            Cliente = colunas[1].Trim(),
-            Valor = valor,
-            DataVencimento = dataVencimento
+            Cliente = colunas[0].Trim(),
+            CPF = colunas[1].Trim(),
+            NumeroContrato = colunas[2].Trim(),
+            Produto = colunas[3].Trim(),
+            DataVencimento = dataVencimento,
+            Valor = valor
         }, null);
     }
 
@@ -136,6 +141,8 @@ public class ImportacaoService : IImportacaoService
     {
         NumeroContrato = dto.NumeroContrato,
         Cliente = dto.Cliente,
+        CPF = dto.CPF,
+        Produto = dto.Produto,
         Valor = dto.Valor,
         DataVencimento = dto.DataVencimento
     };

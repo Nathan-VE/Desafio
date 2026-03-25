@@ -16,6 +16,10 @@ public class Contrato
     [Required]
     public string Cliente { get; set; }
 
+    public string CPF { get; set; } = string.Empty;
+
+    public string Produto { get; set; } = string.Empty;
+
     [Column(TypeName = "decimal(18,2)")]
     public decimal Valor { get; set; }
 

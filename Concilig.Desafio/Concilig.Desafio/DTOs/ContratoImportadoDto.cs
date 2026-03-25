@@ -5,6 +5,8 @@ public class ContratoImportadoDto
 {
     public string NumeroContrato { get; set; } = string.Empty;
     public string Cliente { get; set; } = string.Empty;
+    public string CPF { get; set; } = string.Empty;
+    public string Produto { get; set; } = string.Empty;
     public decimal Valor { get; set; }
     public DateTime DataVencimento { get; set; }
 }
